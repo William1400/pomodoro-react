@@ -1,0 +1,92 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+}
+
+h2 {
+
+    font-size: 4em;
+    font-weight: 200;
+}
+
+h4 {
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+button {
+    
+    height: 30px;
+    width: 70px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+
+    color: #eee;
+    background-color: black;
+}
+
+button:disabled {
+
+    cursor: not-allowed;
+}
+
+.interval-container {
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 40px;
+} 
+
+.interval-lentgh {
+
+    font-size: 2em;
+    margin: 0 12px
+}
+
+.interval-length-container {
+
+    display: flex;
+}
+
+.timer {
+
+    font-size: 1em;
+}
+
+.timer-actions {
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.timer-container {
+    
+    width: 250px;
+    margin-top: 40px;
+    padding: 10px;
+
+    text-align: center;
+
+    border: 2px solid #263646;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+}
+
+
+/*# sourceMappingURL=/pomodoro-react.e31bb0bc.css.map */
